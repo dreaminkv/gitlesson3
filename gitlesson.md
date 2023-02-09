@@ -25,14 +25,20 @@ To use Git, developers use specific commands to copy, create, change, and combin
 
 **git diff** - *This form is to view the changes you made relative to the index (staging area for the next commit)*
 
-**git branch** - show the list of branches
+**git branch** - *show the list of branches*
 
-**git branch branch_name** - create new branch
+**git branch branch_name** - *create new branch*
 
-**git branch -d branch_name** - delete merged branch
+**git branch -d branch_name** - *delete merged branch*
 
-**git branch -D branch_name** - force delete merged branch
+**git branch -D branch_name** - *force delete merged branch*
 
-**git log --graph** - show commit story(graphic)
+**git log --graph** - *show commit story(graphic)*
 
-**git merge branch_name** - merging current branch with branch_name
+**git merge branch_name** - *merging current branch with branch_name*
+
+**git clone** <url-адрес репозитория> - *клонирование внешнего репозитория на локальный ПК*
+
+**git pull** - *получение изменений и слияние с локальной версией*
+
+**git push** - *отправляет локальную версию репозитория на внешний*
